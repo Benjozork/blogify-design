@@ -5,44 +5,62 @@ Designed and Developed by Seamus Donnellan for Blogify.
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Blogify</title>
-    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="static/css/style.css">
-</head>
-<body>
-    <nav class="navbar">
-        <li><a class="navlink blogify" href="#">blogify</a></li>
-        <li><a class="navlink login" href="#">Login</a></li>
-    </nav>
 
-    <section class="main">
-    <section class="posts">
-        <div class="post-list">
-            <div class="post-content">
-                <h1 id="post-title">Post Title Here</h1>
-                <h4 id="posted-by">Posted by { username-here }</h4>
-                <h3 id="read-more"><a id="read-more" href="#">Read More</a></h3>
-                <h4 id="comment-ammount">Comments: <span id="comment-bold-number">4</span></h4>
-                <p id="tag-text">Tags</p>
-            </div>
-            <div class="post-content">
-                    <h1 id="post-title">Post Title Here</h1>
-                    <h4 id="posted-by">Posted by { username-here }</h4>
-                    <h3 id="read-more"><a id="read-more" href="#">Read More</a></h3>
-                    <h4 id="comment-ammount">Comments: <span id="comment-bold-number">4</span></h4>
-                    <p id="tag-text">Tags</p>
+    <head>
+        <meta charset   ="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title>Blogify</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="static/css/style.scss">
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <li><a class="navlink blogify" href="#">blogify</a></li>
+            <li><a class="navlink login" href="#">Login</a></li>
+        </nav>
+
+        <section class="main">
+            <section class="posts">
+
+                <div class="post-list">
+                    <div class="post-content">
+                        <h1 class="post-title">Post Title Here</h1>
+                        <h4 class="posted-by">Posted by { username-here }</h4>
+                        <h3 class="read-more">
+                            <a class="read-more" href="#">Read More</a>
+                        </h3>
+                        <h4 class="comment-ammount">Comments: <span class="comment-bold-number">4</span></h4>
+                        <p  class="tag-text">Tags</p>
+                    </div>
+
+                    <div class="post-content">
+                        <h1 class="post-title">Post Title Here</h1>
+                        <h4 class="posted-by">Posted by { username-here }</h4>
+                        <h3 class="read-more">
+                            <a class="read-more" href="#">Read More</a>
+                        </h3>
+                        <h4 class="comment-ammount">Comments: <span class="comment-bold-number">4</span></h4>
+                        <p  class="tag-text">Tags</p>
+                    </div>
+
                 </div>
-        </div>
-    </section>
-    <section class="sidebar">
-        <div class="sidebar-main">
-            <h1>Search Blogify</h1>
-        </div>
-    </section>
-    </section>
-</body>
+
+            </section>
+
+            <section class="sidebar">
+
+                <div class="sidebar-main">
+                    <h1>Search Blogify</h1>
+                </div>
+
+            </section>
+
+        </section>
+    </body>
+
 </html>

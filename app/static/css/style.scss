@@ -1,9 +1,7 @@
-// Variables here
-$colour: white;
+// Import all files
 
-// Imports here
-@import "reset";
-@import "navbar";
-@import 'fonts';
-@import "posts";
-@import "colour";
+@import "reset.scss";
+@import "navbar.scss";
+@import "fonts.scss";
+@import "posts.scss";
+@import "colours.scss";
