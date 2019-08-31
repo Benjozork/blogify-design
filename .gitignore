@@ -1,2 +1,5 @@
 /.idea/
 /blogify-design.iml
+/app/node_modules/
+/app/.cache/
+/app/dist/
